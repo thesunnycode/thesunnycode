@@ -1,6 +1,6 @@
 <h2 align="center">I build backends in Java and Spring Boot</h2>
 <p align="center">
-  Authentication, delivery systems, analytics, and payments.<br>
+  Multi-tenant platforms, AI pipelines, delivery systems, and SLA engines.<br>
   MCA @ Jain University · Bengaluru, India
 </p>
 <p align="center">
@@ -14,14 +14,34 @@
 
 <br>
 
+### 🎫 ResolveAI
+An AI-assisted helpdesk platform where the model handles language and deterministic policy
+handles every decision that actually matters — priority, routing, SLA breach, and incident detection.
+Multi-tenant, transactional outbox, citation-enforced draft generation, business-hours SLA engine.
+Backend on Heroku, frontend on Vercel.
+
+<table>
+<tr>
+<td align="center"><b>73</b><br><sub>endpoints</sub></td>
+<td align="center"><b>616</b><br><sub>tests</sub></td>
+<td align="center"><b>39</b><br><sub>DB tables</sub></td>
+<td align="center"><b>Java 21</b><br><sub>Spring Boot 4.1</sub></td>
+</tr>
+</table>
+
+**Stack** — Spring Boot 4.1 · Spring AI · Spring Security · JWT · PostgreSQL + pgvector · Redis · Flyway · React 18 · TypeScript · Vite · Docker · Heroku · Vercel  
+→ [github.com/thesunnycode/ResolveAI](https://github.com/thesunnycode/ResolveAI) · [resolveai.thesunnycode.me](https://resolveai.thesunnycode.me)
+
+<br>
+
 ### 🚚 Hyperlocal Delivery
 A delivery-management platform for local businesses — shipment lifecycle, auto-assignment,
 rider app, and a public tracking link that updates live. One JAR ships backend and frontend together.
 
 <table>
 <tr>
-<td align="center"><b>38</b><br><sub>endpoints</sub></td>
-<td align="center"><b>209</b><br><sub>tests</sub></td>
+<td align="center"><b>45</b><br><sub>endpoints</sub></td>
+<td align="center"><b>215</b><br><sub>tests</sub></td>
 <td align="center"><b>11</b><br><sub>tables</sub></td>
 <td align="center"><b>Java 17</b><br><sub>Spring Boot 4.1</sub></td>
 </tr>
@@ -32,39 +52,19 @@ rider app, and a public tracking link that updates live. One JAR ships backend a
 
 <br>
 
-### 🛒 E-Commerce REST API
-The backend for an online store — accounts, catalog, carts, orders, and real card payments through
-Stripe. Customers can shop without an account; checkout hands them to Stripe, and a
-signature-verified webhook confirms the payment.
-
-<table>
-<tr>
-<td align="center"><b>24</b><br><sub>endpoints</sub></td>
-<td align="center"><b>6</b><br><sub>modules</sub></td>
-<td align="center"><b>10</b><br><sub>tables</sub></td>
-<td align="center"><b>Java 17</b><br><sub>Spring Boot 3</sub></td>
-</tr>
-</table>
-
-**Stack** — Spring Boot 3 · Spring Security · JWT · MySQL · Flyway · Stripe  
-→ [github.com/thesunnycode/ecommerce-rest-api](https://github.com/thesunnycode/ecommerce-rest-api)
-
-<br>
-
 ### Stack
 
 | Layer | Technologies |
 |---|---|
-| **Core** | Java 17 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate |
-| **Data** | MySQL · PostgreSQL · Flyway · Redis |
-| **Frontend** | React 18 · TypeScript · Vite |
-| **Tooling** | Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe |
+| **Core** | Java 17/21 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate |
+| **Data** | MySQL · PostgreSQL + pgvector · Flyway · Redis |
+| **AI** | Spring AI · OpenAI · Ollama (local fallback) |
+| **Frontend** | React 18 · TypeScript · Vite · shadcn/ui |
+| **Infra** | Docker · Heroku · Vercel · GitHub Actions |
+| **Tooling** | Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger |
 
 **Also worked with**  
 <img src="https://skillicons.dev/icons?i=js,nodejs,express,prisma,kotlin,androidstudio&perline=6" alt="JavaScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
-
-I’ve worked across two backend stacks. The framework changes; where you validate input, how you
-model data, and what you cache don’t.
 
 <br>
 
