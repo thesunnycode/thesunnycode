@@ -43,17 +43,6 @@ authorization composed from per-feature rule classes rather than one central con
 **Stripe Checkout** behind a `PaymentGateway` interface, with payment confirmed asynchronously by
 webhook and verified against the raw request body's HMAC signature.
 
-> **Two decisions I'd defend in a review**
->
-> **`order_items` stores `unit_price`** even though `products.price` already exists. Without that
-> snapshot, changing a product's price silently rewrites the value of every historical order — and
-> a customer's invoice stops matching what they actually paid. *Normalize current state; snapshot
-> historical records.*
->
-> **Cart IDs are UUIDs** while everything else is auto-increment. Cart IDs go to anonymous clients,
-> so sequential integers would let anyone walk other people's carts. The UUID *is* the
-> authorization.
-
 <a href="https://github.com/thesunnycode/ecommerce-rest-api"><b>→ Read the code</b></a>
 
 <br>
