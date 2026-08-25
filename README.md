@@ -80,16 +80,15 @@ APIs.
 
 ## Stack
 
-|  |  |
-|---|---|
-| **Core** | Java 17 · Spring Boot 3 · Spring Security · Spring MVC · Spring Data JPA · Hibernate |
-| **Data** | MySQL · PostgreSQL · Flyway · Redis |
-| **Tooling** | Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe |
-| **Also shipped with** | Node.js · Express · Prisma · Zod · TypeScript |
+**Core** — Java 17 · Spring Boot 3 · Spring Security · Spring MVC · Spring Data JPA · Hibernate
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,prisma,kotlin,androidstudio&perline=7" alt="JavaScript, TypeScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="40" />
-</p>
+**Data** — MySQL · PostgreSQL · Flyway · Redis
+
+**Tooling** — Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe
+
+**Also shipped with**
+
+<img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,prisma,kotlin,androidstudio&perline=7" alt="JavaScript, TypeScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
 
 I've worked across two backend stacks. The framework changes; where you validate input, how you
 model data, and what you cache don't.
