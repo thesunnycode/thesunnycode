@@ -46,11 +46,11 @@ Working through **system design** — cache invalidation, idempotency, scaling r
 
 ### Stack
 
-**Core** — Java 17 · Spring Boot 3 · Spring Security · Spring MVC · Spring Data JPA · Hibernate
-**Data** — MySQL · PostgreSQL · Flyway · Redis
+**Core** — Java 17 · Spring Boot 3 · Spring Security · Spring MVC · Spring Data JPA · Hibernate<br>
+**Data** — MySQL · PostgreSQL · Flyway · Redis<br>
 **Tooling** — Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe
 
-Also shipped with
+**Also shipped with**
 
 <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,prisma,kotlin,androidstudio&perline=7" alt="JavaScript, TypeScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
 
