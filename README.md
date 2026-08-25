@@ -35,13 +35,32 @@
 </tr>
 </table>
 
-A production-oriented e-commerce backend on a normalized MySQL schema managed by Flyway.
+The backend for an online store — accounts, a product catalog, shopping carts, orders, and real
+card payments.
 
-Stateless **JWT** authentication — a short-lived access token, and a refresh token in an
-`HttpOnly`, `Secure`, path-scoped cookie. **BCrypt** password hashing. Deny-by-default
-authorization composed from per-feature rule classes rather than one central config.
-**Stripe Checkout** behind a `PaymentGateway` interface, with payment confirmed asynchronously by
-webhook and verified against the raw request body's HMAC signature.
+**What it does**
+
+- Customers register, log in, browse products by category, and build a cart
+- Checkout creates an order and hands the customer to Stripe to pay by card
+- Admins manage the catalog; customers only ever see their own orders
+
+**How it works**
+
+- **Login** issues two tokens — a short one used on every request, and a longer one kept in a
+  cookie that JavaScript can't read. If the short one leaks, it expires in minutes. Passwords are
+  hashed with BCrypt, never stored.
+- **Every endpoint is locked by default.** Access has to be granted explicitly, so a new endpoint
+  is never accidentally left open. Each module declares its own rules instead of one giant config
+  file.
+- **Card details never touch the server.** Stripe hosts the payment page, then tells the API the
+  result through a webhook. That webhook is signature-checked, so nobody can fake a "payment
+  succeeded" message.
+- **Orders remember their own prices.** Each line stores what the item cost at the moment of
+  purchase — so changing a price later can't rewrite what past customers paid.
+- **Cart IDs are random UUIDs**, because you can shop without an account. A guessable number would
+  let anyone open someone else's cart.
+
+Built with Flyway migrations so the database schema is version-controlled alongside the code.
 
 <a href="https://github.com/thesunnycode/ecommerce-rest-api"><b>→ Read the code</b></a>
 
