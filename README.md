@@ -59,10 +59,13 @@ Pushing further into **full-stack delivery** — shipping backend and frontend a
 <br>
 
 ### Stack
-**Core** — Java 17 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate  
-**Data** — MySQL · PostgreSQL · Flyway · Redis  
-**Frontend** — React 18 · TypeScript · Vite  
-**Tooling** — Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe
+
+| Layer | Technologies |
+|---|---|
+| **Core** | Java 17 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate |
+| **Data** | MySQL · PostgreSQL · Flyway · Redis |
+| **Frontend** | React 18 · TypeScript · Vite |
+| **Tooling** | Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe |
 
 **Also worked with**  
 <img src="https://skillicons.dev/icons?i=js,nodejs,express,prisma,kotlin,androidstudio&perline=6" alt="JavaScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
