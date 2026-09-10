@@ -1,12 +1,11 @@
 <h2 align="center">I build backends in Java and Spring Boot</h2>
 <p align="center">
   Authentication, delivery systems, analytics, and payments.<br>
-  Backend engineer at <b>Redalis</b> · MCA @ Jain University · Bengaluru, India
+  MCA @ Jain University · Bengaluru, India
 </p>
 <p align="center">
   <a href="https://thesunnycode.me">Website</a> ·
   <a href="https://linkedin.com/in/thesunnycode">LinkedIn</a> ·
-  <a href="https://leetcode.com/u/thesunnycode">LeetCode</a> ·
   <a href="mailto:sunnyks058@gmail.com">Email</a>
 </p>
 <p align="center">
@@ -49,12 +48,6 @@ signature-verified webhook confirms the payment.
 
 **Stack** — Spring Boot 3 · Spring Security · JWT · MySQL · Flyway · Stripe  
 → [github.com/thesunnycode/ecommerce-rest-api](https://github.com/thesunnycode/ecommerce-rest-api)
-
-<br>
-
-### Currently
-Working through **system design** — cache invalidation, idempotency, scaling read-heavy APIs.  
-Pushing further into **full-stack delivery** — shipping backend and frontend as one unit, keeping both sides sharp.
 
 <br>
 
