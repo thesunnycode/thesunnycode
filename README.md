@@ -12,6 +12,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,postgres,redis,react,ts,maven,git&perline=10" alt="Java, Spring, Hibernate, MySQL, PostgreSQL, Redis, React, TypeScript, Maven, Git" />
 </p>
+
 <br>
 
 ### 🚚 Hyperlocal Delivery
@@ -46,28 +47,31 @@ signature-verified webhook confirms the payment.
 </tr>
 </table>
 
+**Stack** — Spring Boot 3 · Spring Security · JWT · MySQL · Flyway · Stripe  
+→ [github.com/thesunnycode/ecommerce-api](https://github.com/thesunnycode/ecommerce-api)
+
 <br>
 
 ### Currently
 Working through **system design** — cache invalidation, idempotency, scaling read-heavy APIs.  
-Getting sharper at **full-stack delivery** — the Hyperlocal project ships backend and a React frontend
-as one unit, and I want to keep that muscle.
+Pushing further into **full-stack delivery** — shipping backend and frontend as one unit, keeping both sides sharp.
 
 <br>
 
 ### Stack
-**Core** — Java 17 · Spring Boot 3/4 · Spring Security · Spring MVC · Spring Data JPA · Hibernate  
+**Core** — Java 17 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate  
 **Data** — MySQL · PostgreSQL · Flyway · Redis  
 **Frontend** — React 18 · TypeScript · Vite  
 **Tooling** — Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger · MapStruct · Stripe
 
-**Also shipped with**
-<img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,prisma,kotlin,androidstudio&perline=7" alt="JavaScript, TypeScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
+**Also worked with**  
+<img src="https://skillicons.dev/icons?i=js,nodejs,express,prisma,kotlin,androidstudio&perline=6" alt="JavaScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
 
 I've worked across two backend stacks. The framework changes; where you validate input, how you
 model data, and what you cache don't.
 
 <br>
+
 <p align="center">
   <sub>Open to full-time backend engineering roles.</sub>
 </p>
