@@ -23,13 +23,13 @@ Backend on Heroku, frontend on Vercel.
 <table>
 <tr>
 <td align="center"><b>73</b><br><sub>endpoints</sub></td>
-<td align="center"><b>616</b><br><sub>tests</sub></td>
 <td align="center"><b>39</b><br><sub>DB tables</sub></td>
+<td align="center"><b>pgvector</b><br><sub>+ Redis</sub></td>
 <td align="center"><b>Java 21</b><br><sub>Spring Boot 4.1</sub></td>
 </tr>
 </table>
 
-**Stack** — Spring Boot 4.1 · Spring AI · Spring Security · JWT · PostgreSQL + pgvector · Redis · Flyway · React 18 · TypeScript · Vite · Docker · Heroku · Vercel  
+**Stack** — Spring Boot 4.1 · Spring AI · PostgreSQL + pgvector · Redis · React 18 · TypeScript · Heroku · Vercel  
 → [github.com/thesunnycode/ResolveAI](https://github.com/thesunnycode/ResolveAI) · [resolveai.thesunnycode.me](https://resolveai.thesunnycode.me)
 
 <br>
@@ -41,13 +41,13 @@ rider app, and a public tracking link that updates live. One JAR ships backend a
 <table>
 <tr>
 <td align="center"><b>45</b><br><sub>endpoints</sub></td>
-<td align="center"><b>215</b><br><sub>tests</sub></td>
 <td align="center"><b>11</b><br><sub>tables</sub></td>
+<td align="center"><b>full stack</b><br><sub>one JAR</sub></td>
 <td align="center"><b>Java 17</b><br><sub>Spring Boot 4.1</sub></td>
 </tr>
 </table>
 
-**Stack** — Spring Boot 4.1 · Spring Security · JWT · MySQL · Flyway · React 18 · TypeScript · Vite · Maven  
+**Stack** — Spring Boot 4.1 · MySQL · React 18 · TypeScript · Heroku  
 → [github.com/thesunnycode/hyperlocal-delivery](https://github.com/thesunnycode/hyperlocal-delivery)
 
 <br>
