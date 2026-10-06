@@ -56,15 +56,12 @@ rider app, and a public tracking link that updates live. One JAR ships backend a
 
 | Layer | Technologies |
 |---|---|
-| **Core** | Java 17/21 · Spring Boot · Spring Security · Spring MVC · Spring Data JPA · Hibernate |
+| **Core** | Java 17/21 · Spring Boot · Spring Security · Spring Data JPA · Hibernate |
 | **Data** | MySQL · PostgreSQL + pgvector · Flyway · Redis |
-| **AI** | Spring AI · OpenAI · Ollama (local fallback) |
-| **Frontend** | React 18 · TypeScript · Vite · shadcn/ui |
+| **AI** | Spring AI · OpenAI · Ollama |
+| **Frontend** | React 18 · TypeScript · Vite |
 | **Infra** | Docker · Heroku · Vercel · GitHub Actions |
-| **Tooling** | Git · Maven · Postman · IntelliJ IDEA · OpenAPI/Swagger |
-
-**Also worked with**  
-<img src="https://skillicons.dev/icons?i=js,nodejs,express,prisma,kotlin,androidstudio&perline=6" alt="JavaScript, Node.js, Express, Prisma, Kotlin, Android Studio" height="42" />
+| **Tooling** | Git · Maven · IntelliJ IDEA · OpenAPI/Swagger |
 
 <br>
 
